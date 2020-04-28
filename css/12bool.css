@@ -1,16 +1,16 @@
 /*  debud */
 .debug .container {
-  border: 1px solid black;
+  border: 2px solid black;
   background: lightgreen;
 }
 .debug [class*="col"] {
-  border: 1px solid white;
-  
+  border: 2px solid white;
   padding: 1px;
   background: pink;
 }
 .debug [class*="col"] > .container [class*="col"] {
-  background: lightcoral;
+  background: lightcoral;ù
+  border: 2px solid red;
 
 
 }
