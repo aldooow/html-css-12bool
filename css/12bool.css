@@ -9,10 +9,8 @@
   background: pink;
 }
 .debug [class*="col"] > .container [class*="col"] {
-  background: lightcoral;ù
+  background: lightcoral;
   border: 2px solid red;
-
-
 }
 /* end debud */
 
@@ -23,18 +21,15 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 .container {
   max-width: 1170px;
   margin: 0 auto;
 }
-
 .container::after {
   content: '';
   display: table;
   clear: both;
 }
-
 [class*="col"] {
   float: left;
 }
