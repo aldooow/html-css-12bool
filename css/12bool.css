@@ -1,16 +1,18 @@
 /*  debud */
 .debug .container {
-  border: 2px solid black;
+  border: 1px solid black;
   background: lightgreen;
 }
 .debug [class*="col"] {
-  border: 2px solid white;
-  height: 300px;
+  border: 1px solid white;
+  
+  padding: 1px;
   background: pink;
 }
 .debug [class*="col"] > .container [class*="col"] {
   background: lightcoral;
-  border: 2px solid red;
+
+
 }
 /* end debud */
 
@@ -116,8 +118,3 @@
 }
 /* end offset */
 /* END FRAMEWORK */
-
-p {
-  line-height: 300px;
-  text-align: center;
-}
